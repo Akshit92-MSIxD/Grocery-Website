@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="./home.html" class="logo"> <i class="fas fa-shopping-basket"></i>GrocoShop</a>
+
+    <nav class="navbar">
+        <a href="./home.html">home</a>
+        <a href="./shop.html">shop</a>
+        <a href="./about.html">about</a>
+        <a href="./review.html">review</a>
+        <a href="./blog.html">blog</a>
+        <a href="./contact.html">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="../image/cart-1.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">&#x20B9;250</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="../image/cart-2.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">&#x20B9;250</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="../image/cart-3.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">&#x20B9;250</span>
+            </div>
+        </div>
+        <h3 class="total"> total : <span>&#x20B9;750</span> </h3>
+        <a href="#" class="btn">checkout cart</a>
+    </div>
+
+    <form action="" class="login-form" id="SignUp-form">
+        <h3>Sign Up/In Form</h3>
+        <input id="Email" name="Email" type="email" placeholder="enter your email" class="box">
+        <input id="password" name="password" type="password" placeholder="enter your password" class="box">
+        <!-- <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div> -->
+        <button type="submit" id="submit-btn" onclick="signUp()" class="btn">Sign Up</button>
+        <!-- <p>forget password? <a href="#">click here</a></p> -->
+        <p>Already have an account? <a href="#">Sign In</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<div class="heading">
+    <h1>contact us</h1>
+    <p> <a href="./home.html">home >></a> contact </p>
+</div>
+
+<section class="contact">
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>My number</h3>
+            <p>+91 9568606607</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>My email</h3>
+            <p>akshitrawat.amank@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>My address</h3>
+            <p>Dehradun, india - 248002</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <form action=""  id="contactForm">
+            <h3>Contact Form</h3>
+            <div class="alert">Your Message Sent!!!</div>
+            <div class="inputBox">
+                <input type="text" name="name" id="name" placeholder="enter your name" class="box">
+                <input type="email" name ="email" id="email" placeholder="enter your email" class="box">
+            </div>
+            <div class="inputBox">
+                <input type="number" name="phone" id="phone" placeholder="enter your number" class="box">
+                <input type="text" name="subject" id="subject" placeholder="enter your subject" class="box">
+            </div>
+            <textarea placeholder="your message"  name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1633968347413!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="./home.html"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="./shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+            <a href="./about.html"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="./review.html"> <i class="fas fa-arrow-right"></i> review</a>
+            <a href="./blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+            <a href="./contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> terms or use </a>
+        </div>
+
+        <div class="box">
+            <h3>follow me</h3>
+            <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://twitter.com/" target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="https://in.pinterest.com/" target="_blank"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+
+    </div>
+
+</section>
+
+<section class="credit">created by Akshit Rawat </section>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link -->
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="../js/Contact.js"></script> -->
+<script src="../js/Sign_Up-In_form.js"></script> -->
+<script src="../js/script.js"></script>
+
+
+
+
+</body>
+</html>
